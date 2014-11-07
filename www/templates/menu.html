@@ -1,0 +1,43 @@
+<ion-side-menus>
+
+  <ion-pane ion-side-menu-content>
+    <ion-nav-bar class="bar-stable nav-title-slide-ios7">
+      <ion-nav-back-button class="button-clear"><i class="icon ion-ios7-arrow-back"></i> Back</ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view>
+  </ion-pane>
+
+  <ion-side-menu side="left" width="130">
+    <ion-content>
+      <ion-list>
+        <!--<ion-item nav-clear menu-close ng-click="login()">
+          Login
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/search">
+          Search
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/browse">
+          Browse
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/playlists">
+          Playlists
+        </ion-item>-->
+        <ion-item nav-clear menu-close>
+          <img src="../img/account-icon.png"><br>Account
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/products">
+            <img src="../img/products-icon.gif"><br>Products
+        </ion-item>
+        <ion-item nav-clear menu-close>
+          <img src="../img/order-icon.png"><br>Orders
+        </ion-item>
+        <ion-item nav-clear menu-close>
+          <img src="../img/customers-icon.png"><br>Customers
+        </ion-item>
+        <ion-item nav-clear menu-close>
+          <img src="../img/settings-icon.png"><br>Settings
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

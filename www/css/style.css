@@ -1,0 +1,17 @@
+.right-cart {
+  border-left: solid #808080;
+  margin-right: 20px;
+}
+
+.left-to-cart {
+  border-right: solid #808080;
+}
+
+.right-cart-customer {
+  border-bottom: solid #808080;
+  margin-bottom: 7px;
+}
+
+.ion-item {
+   margin-left: 10px;
+}
