@@ -13,5 +13,26 @@
 }
 
 .ion-item {
-   margin-left: 10px;
+  margin-left: 10px;
+}
+
+#total-button {
+  margin-top: 70px;
+  margin-left: 5px;
+  width: 25em;  height: 4em;
+}
+
+a h3 {
+  padding: 20px; 
+  padding-right: 100px
+}
+
+#search {
+  width: 625px; 
+}
+
+#cart-heading {
+  margin: 0px;
+  margin-top: 5px;
+  margin-left: 150px;
 }
