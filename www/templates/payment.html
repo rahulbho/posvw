@@ -1,10 +1,14 @@
-<ion-header-bar class="bar-positive">
-  <a href="#/app/products" class="button button-icon icon ion-chevron-left"></a>
-  <h1 class="title">Payment</h1>
-</ion-header-bar>
-<ion-view title="Payment">
+<ion-nav-bar class="bar-positive">
+  <ion-nav-back-button class="button-icon button-clear ion-ios7-arrow-back">
+  </ion-nav-back-button>
+</ion-nav-bar>
+<ion-view title="Payment" animation="slide-left-right">
   <ion-content class="has-header">
-    <div class="col col-33 " ng-include="'templates/cart.html'">
+    <div class="row">
+      <div class="col col-33" ng-include="'templates/cart.html'">
+      </div>
+      <div class="col col-66" ng-include="'templates/calculator.html'">
+      </div>
     </div>
   </ion-content>
 </ion-view>

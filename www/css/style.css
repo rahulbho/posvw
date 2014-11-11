@@ -18,7 +18,7 @@
 
 #total-button {
   margin-top: 70px;
-  margin-left: 5px;
+  margin-left: 0px;
   width: 25em;  height: 4em;
 }
 
@@ -35,4 +35,21 @@ a h3 {
   margin: 0px;
   margin-top: 5px;
   margin-left: 150px;
+}
+
+.calculator-row { 
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.pull-right-item-payment {
+  padding-left: 79%;
+}
+
+.pull-right-item-cash-remain {
+  padding-left: 80%;
+}
+
+.pull-right-item-cart {
+  margin-left: 50%;
 }
